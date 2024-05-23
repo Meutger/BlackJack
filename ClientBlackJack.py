@@ -4,7 +4,7 @@ ip = input("Ip Adresse: ")
 #Socket mit ipv4 und tcp
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 s.connect((ip,50000))
-
+# Hallo
 try:
     while True:
         nachricht = input ("Nachricht: ")
